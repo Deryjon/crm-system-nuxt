@@ -1143,6 +1143,28 @@
   dependencies:
     "tslib" "^2.4.0"
 
+"@tanstack/match-sorter-utils@^8.11.8":
+  "integrity" "sha512-3VPh0SYMGCa5dWQEqNab87UpCMk+ANWHDP4ALs5PeEW9EpfTAbrezzaOk/OiM52IESViefkoAOYuxdoa04p6aA=="
+  "resolved" "https://registry.npmjs.org/@tanstack/match-sorter-utils/-/match-sorter-utils-8.11.8.tgz"
+  "version" "8.11.8"
+  dependencies:
+    "remove-accents" "0.4.2"
+
+"@tanstack/query-core@5.28.9":
+  "integrity" "sha512-hNlfCiqZevr3GRVPXS3MhaGW5hjcxvCsIQ4q6ff7EPlvFwYZaS+0d9EIIgofnegDaU2BbCDlyURoYfRl5rmzow=="
+  "resolved" "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.28.9.tgz"
+  "version" "5.28.9"
+
+"@tanstack/vue-query@^5.28.9":
+  "integrity" "sha512-gZgUdnxIvb8X3TNLYFbWYAZWX1ziyLlqE8yEutDojW5zwkwWWSC4N3KjvMfarTehBfdQ2F6y8db2Ccip63f0Xw=="
+  "resolved" "https://registry.npmjs.org/@tanstack/vue-query/-/vue-query-5.28.9.tgz"
+  "version" "5.28.9"
+  dependencies:
+    "@tanstack/match-sorter-utils" "^8.11.8"
+    "@tanstack/query-core" "5.28.9"
+    "@vue/devtools-api" "^6.5.1"
+    "vue-demi" "^0.14.6"
+
 "@trysound/sax@0.2.0":
   "integrity" "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA=="
   "resolved" "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
@@ -5591,6 +5613,11 @@
   "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz"
   "version" "0.14.1"
 
+"remove-accents@0.4.2":
+  "integrity" "sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA=="
+  "resolved" "https://registry.npmjs.org/remove-accents/-/remove-accents-0.4.2.tgz"
+  "version" "0.4.2"
+
 "replace-in-file@^6.1.0":
   "integrity" "sha512-arB9d3ENdKva2fxRnSjwBEXfK1npgyci7ZZuwysgAp7ORjHSyxz6oqIjTEv8R0Ydl4Ll7uOAZXL4vbkhGIizCg=="
   "resolved" "https://registry.npmjs.org/replace-in-file/-/replace-in-file-6.3.5.tgz"
@@ -6837,7 +6864,7 @@
   dependencies:
     "ufo" "^1.2.0"
 
-"vue-demi@>=0.13.0", "vue-demi@>=0.14.5", "vue-demi@>=0.14.7":
+"vue-demi@^0.14.6", "vue-demi@>=0.13.0", "vue-demi@>=0.14.5", "vue-demi@>=0.14.7":
   "integrity" "sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA=="
   "resolved" "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.7.tgz"
   "version" "0.14.7"
@@ -6873,7 +6900,7 @@
     "vue-observe-visibility" "^2.0.0-alpha.1"
     "vue-resize" "^2.0.0-alpha.1"
 
-"vue@^2.6.14 || ^3.3.0", "vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@^3.4.21", "vue@>= 3", "vue@>=2.7 || >=3", "vue@>=3", "vue@>=3.0.0-0", "vue@3.4.21":
+"vue@^2.6.0 || ^3.3.0", "vue@^2.6.14 || ^3.3.0", "vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@^3.4.21", "vue@>= 3", "vue@>=2.7 || >=3", "vue@>=3", "vue@>=3.0.0-0", "vue@3.4.21":
   "integrity" "sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.4.21.tgz"
   "version" "3.4.21"

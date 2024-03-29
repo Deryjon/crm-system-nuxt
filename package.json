@@ -13,6 +13,7 @@
     "@nuxt/image": "^1.4.0",
     "@pinia/nuxt": "^0.5.1",
     "@radix-icons/vue": "^1.0.0",
+    "@tanstack/vue-query": "^5.28.9",
     "@vueuse/core": "^10.9.0",
     "appwrite": "^14.0.0",
     "class-variance-authority": "^0.7.0",
