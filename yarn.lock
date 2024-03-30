@@ -1470,6 +1470,15 @@
     "fast-glob" "^3.3.2"
     "magic-string" "^0.30.8"
 
+"@vee-validate/nuxt@^4.12.6":
+  "integrity" "sha512-QYz8RDgboLoGRr8J3daB2BQ1eMdBY5XRqtTvieeNhRfSBWweUpjuWRZJx6XqNyT1/K3dEgbrRvR07uTFAK4D0g=="
+  "resolved" "https://registry.npmjs.org/@vee-validate/nuxt/-/nuxt-4.12.6.tgz"
+  "version" "4.12.6"
+  dependencies:
+    "@nuxt/kit" "^3.8.2"
+    "local-pkg" "^0.5.0"
+    "vee-validate" "4.12.6"
+
 "@vercel/nft@^0.26.4":
   "integrity" "sha512-j4jCOOXke2t8cHZCIxu1dzKLHLcFmYzC3yqAK6MfZznOL1QIJKd0xcFsXK3zcqzU7ScsE2zWkiMMNHGMHgp+FA=="
   "resolved" "https://registry.npmjs.org/@vercel/nft/-/nft-0.26.4.tgz"
@@ -6458,6 +6467,11 @@
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-3.13.1.tgz"
   "version" "3.13.1"
 
+"type-fest@^4.8.3":
+  "integrity" "sha512-on5/Cw89wwqGZQu+yWO0gGMGu8VNxsaW9SB2HE8yJjllEk7IDTwnSN1dUVldYILhYPN5HzD7WAaw2cc/jBfn0Q=="
+  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-4.14.0.tgz"
+  "version" "4.14.0"
+
 "type-is@^1.6.16":
   "integrity" "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g=="
   "resolved" "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz"
@@ -6735,6 +6749,14 @@
   "resolved" "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
 
+"vee-validate@4.12.6":
+  "integrity" "sha512-EKM3YHy8t1miPh30d5X6xOrfG/Ctq0nbN4eMpCK7ezvI6T98/S66vswP+ihL4QqAK/k5KqreWOxof09+JG7N/A=="
+  "resolved" "https://registry.npmjs.org/vee-validate/-/vee-validate-4.12.6.tgz"
+  "version" "4.12.6"
+  dependencies:
+    "@vue/devtools-api" "^6.5.1"
+    "type-fest" "^4.8.3"
+
 "vite-hot-client@^0.2.3":
   "integrity" "sha512-rOGAV7rUlUHX89fP2p2v0A2WWvV3QMX2UYq0fRqsWSvFvev4atHWqjwGoKaZT1VTKyLGk533ecu3eyd0o59CAg=="
   "resolved" "https://registry.npmjs.org/vite-hot-client/-/vite-hot-client-0.2.3.tgz"
@@ -6900,7 +6922,7 @@
     "vue-observe-visibility" "^2.0.0-alpha.1"
     "vue-resize" "^2.0.0-alpha.1"
 
-"vue@^2.6.0 || ^3.3.0", "vue@^2.6.14 || ^3.3.0", "vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@^3.4.21", "vue@>= 3", "vue@>=2.7 || >=3", "vue@>=3", "vue@>=3.0.0-0", "vue@3.4.21":
+"vue@^2.6.0 || ^3.3.0", "vue@^2.6.14 || ^3.3.0", "vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.11", "vue@^3.3.4", "vue@^3.4.21", "vue@>= 3", "vue@>=2.7 || >=3", "vue@>=3", "vue@>=3.0.0-0", "vue@3.4.21":
   "integrity" "sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.4.21.tgz"
   "version" "3.4.21"
