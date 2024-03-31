@@ -6,6 +6,9 @@ import dayjs from 'dayjs';
 import { useMutation } from '@tanstack/vue-query';
 import type { EnumStatus } from '~/types/deals.types';
 import { COLLECTION_DEALS, DB_ID } from '~/app.constants';
+import {generateColumnStyle} from '@/components/kanban/generate-gradient'
+import { useDealSlideStore } from '~/store/deal-slide.store';
+
 useSeoMeta({
     title: 'Home | CRM System',
 })
@@ -16,6 +19,7 @@ const dragCardRef = ref<ICard | null>(null)
 const sourceColumnRef = ref<IColumn | null>(null)
 
 const { data, isLoading, refetch } = useKanbanQuery()
+const store = useDealSlideStore()
 
 
 type TypeMutationVariables = {
@@ -61,7 +65,7 @@ function handleDrop(targetColumn: IColumn){
                 @dragover="handleDragOver"
                 @drop="() => handleDrop(column)"
                 >
-                    <div class="rounded bg-slate-700 py-1 px-5 mb-2 text-center">
+                    <div class="rounded bg-slate-700 py-1 px-5 mb-2 text-center" :style="generateColumnStyle(index, data?.length)">
                         {{ column.name }}
                     </div>
                     <div class="">
@@ -69,7 +73,7 @@ function handleDrop(targetColumn: IColumn){
                         <UiCard v-for="card in column.items" :key="card.id" class="mb-5" draggable="true"
                         @dragstart="() => handleDragStart(card, column)"
                         >
-                            <UiCardHeader role="button">{{ card.name }}</UiCardHeader>
+                            <UiCardHeader role="button" @click="store.set(card)">{{ card.name }}</UiCardHeader>
                             <UiCardContent class="opacity-70 text-xs">{{ convertCurrency(card.price) }}</UiCardContent>
                             <UiCardContent class="text-xs">
                                 <div class="">Компания</div> {{ card.customers.name }}
@@ -80,6 +84,7 @@ function handleDrop(targetColumn: IColumn){
                     </div>
                 </div>
             </div>
+            <KanbanSlideover/>
         </div>
     </div>
 </template>

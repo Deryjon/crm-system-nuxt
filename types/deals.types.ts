@@ -11,6 +11,7 @@ export interface ICustomer extends IBaseField {
 }
 
 export interface IComment extends IBaseField {
+$updatedAt($updatedAt: any): unknown;
   text: string;
 }
 
@@ -23,6 +24,7 @@ export enum EnumStatus {
 }
 
 export interface IDeal extends IBaseField {
+[x: string]: any;
   comments: IComment[];
   customer: ICustomer;
   name: string;

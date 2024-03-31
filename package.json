@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.4.0",
+    "@nuxt/ui": "^2.15.0",
     "@pinia/nuxt": "^0.5.1",
     "@radix-icons/vue": "^1.0.0",
     "@tanstack/vue-query": "^5.28.9",
@@ -31,7 +32,6 @@
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",
-    "@nuxtjs/tailwindcss": "^6.11.4",
     "@types/uuid": "^9.0.8",
     "nuxt-icon": "^0.6.10",
     "shadcn-nuxt": "^0.10.2",
